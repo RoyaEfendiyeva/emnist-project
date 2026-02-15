@@ -77,11 +77,11 @@ history = model.fit(
 
 
 test_loss, test_acc = model.evaluate(x_test, y_test, verbose=0)
-print(f"\n✅ Test Accuracy: {test_acc*100:.2f}%")
+print(f"\n Test Accuracy: {test_acc*100:.2f}%")
 
 
 model_path = os.path.join(MODEL_DIR, "emnist_cnn.h5")
 model.save(model_path)
 
-print(f"✅ Model saved to: {model_path}")
+print(f" Model saved to: {model_path}")
 
