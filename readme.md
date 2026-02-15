@@ -60,7 +60,7 @@ Simvol mərkəzləşdirilir.
 
 1. Repozitoriyanı klonlayın:
 bash
-git clone https://github.com/royaefendiyeva/emnist-recognizer.git
+git clone https://github.com/RoyaEfendiyeva/emnist-project.git
 cd emnist-recognizer
 
 
@@ -83,12 +83,10 @@ python backend/app.py
 
 6. Brauzerdə açın: http://127.0.0.1:5000
 
-## İstifadə
+## Nəticə
 
 Canvas üzərində rəqəm və ya hərf yazın.
 
 "Predict" düyməsinə basın.
 
-Nəticələri görün - model 3 ən yüksək ehtimallı cavabı göstərir.
-
-"Clear" ilə təmizləyin və yenidən cəhd edin.
+Nəticələr: model 3 ən yüksək ehtimallı cavabı göstərir.
